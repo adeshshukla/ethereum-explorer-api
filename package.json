@@ -1,0 +1,27 @@
+{
+  "name": "nodeexpressapp1",
+  "version": "1.0.0",
+  "description": "Node API to scan ethereum blockchain",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./node_server/server.js"
+  },
+  "keywords": [
+    "ethereum",
+    "ethereum-explorer-api",
+    "EtherScan.io",
+    "etherscan",
+    "etherscan-api",
+    "api",
+    "nodejs-infura-api",
+    "transaction",
+    "rest"
+  ],
+  "author": "Adesh Shukla",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3",
+    "web3": "^0.20.1"
+  }
+}
